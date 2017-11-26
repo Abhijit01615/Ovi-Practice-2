@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+[class*='col-']{
+    float: left;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.row:after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+}
+
+.header-height{height: 200px;}
+.menu-height{height: 50px;}
+.content-height{height: 800px;}
+.big-footer-height{height: 300px;}
+.footer-height{height: 40px;}
+
+.main-ul{
+    list-style-type: none;
+}
+
+.main-li{
+    float: left;
+    width: 120px;
+    /*border: 1px solid gray;*/
+}
+
+.main-li a{
+    text-decoration: none;
+    border: 1px solid gray;
+    display: block;
+    text-align: center;
+    height: 48px;
+    padding-top: 13px;
+    background-color: gray;
+    color: white;
+    /*transition: 2s;*/
+}
+
+.main-li a:hover{
+    background-color: black;
+}
+
+nav{
+    background-color: gray;
+    height: 50px;
+    align-content: ;
+}
+
+.div-one{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 100px;
+    float: left;
+}
+.div-two{
+    height: 75px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: red;
+    border-radius: 100px 100px 0px 0px;
+    float: left;
+}
+.div-three{
+    height: 75px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: red;
+    border-radius: 0px 0px 100px 100px;
+    float: left;
+}
+.div-four{
+    height: 150px;
+    width: 75px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: red;
+    border-radius: 100px 0px 0px 100px;
+    float: left;
+}
+.div-five{
+    height: 150px;
+    width: 75px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: red;
+    border-radius: 0px 100px 100px 0px;
+    float: left;
+}
+.div-six{
+    height: 75px;
+    width: 75px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: red;
+    border-radius: 100px 0px 0px 0px;
+    float: left;
+}
+.div-seven{
+    height: 75px;
+    width: 75px;
+    margin-top: 50px;
+    margin-left: 15px;
+    background-color: red;
+    border-radius: 0px 100px 0px 0px ;
+    float: left;
+}
+.div-eight{
+    height: 75px;
+    width: 75px;
+    margin-top: 15px;
+    margin-left: 50px;
+    background-color: red;
+    border-radius: 0px 0px 0px 100px;
+    float: left;
+}
+.div-nine{
+    height: 75px;
+    width: 75px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: red;
+    border-radius: 0px 0px 100px 0px;
+    float: left;
+}
+.div-ten{
+    height: 140px;
+    width: 70px;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: 50px;
+    float: left;
+    transform: skewY(35deg);
+}
+.div-eleven{
+    height: 140px;
+    width: 70px;
+    background-color: green;
+    margin-top: 10px;
+    margin-left: 0px;
+    float: left;
+    transform: skewY(-35deg);
+}
+.div-twelve{
+    height: 140px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 15px;
+    margin-left: 68px;
+    transform: skew(-20deg);
+    float: left;
+}
+.div-thirteen{
+    height: 140px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 15px;
+    margin-left: 30px;
+    transform: skew(20deg);
+    float: left;
+}
+.div-fourteen{
+    height: 20px;
+    width: 67px;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 80px;
+    margin-left: -69px;
+    float: left;
+}
+.div-fifteen{
+    height: 140px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 15px;
+    margin-left: 70px;
+    float: left;
+}
+.div-sixteen{
+    height: 80px;
+    width: 90px;
+    margin-top: 15px;
+    margin-left: -20px;
+    background-color: none;
+    border-radius: 0px 100px 100px 0px;
+    float: left;
+    border: 20px solid red;
+}
+.div-seventeen{
+    height: 80px;
+    width: 90px;
+    margin-top: 75px;
+    margin-left: -90px;
+    background-color: none;
+    border-radius: 0px 100px 100px 0px;
+    float: left;
+    border: 20px solid red;
+}
+.div-eighteen{
+    height: 140px;
+    width: 90px;
+    background-color: none;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 100px;
+    float: left;
+    border: 20px solid red;
+
+}
