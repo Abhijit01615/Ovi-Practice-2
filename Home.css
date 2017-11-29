@@ -36,7 +36,7 @@
 
 .header-height{height: 200px;}
 .menu-height{height: 50px;}
-.content-height{height: 800px;}
+.content-height{height: 1000px;}
 .big-footer-height{height: 300px;}
 .footer-height{height: 40px;}
 
@@ -171,6 +171,7 @@ nav{
     float: left;
     transform: skewY(-35deg);
 }
+/*A*/
 .div-twelve{
     height: 140px;
     width: 20px;
@@ -200,6 +201,7 @@ nav{
     margin-left: -69px;
     float: left;
 }
+/*B*/
 .div-fifteen{
     height: 140px;
     width: 20px;
@@ -214,8 +216,7 @@ nav{
     width: 90px;
     margin-top: 15px;
     margin-left: -20px;
-    background-color: none;
-    border-radius: 0px 100px 100px 0px;
+    border-radius: 0 100px 100px 0;
     float: left;
     border: 20px solid red;
 }
@@ -224,19 +225,503 @@ nav{
     width: 90px;
     margin-top: 75px;
     margin-left: -90px;
-    background-color: none;
-    border-radius: 0px 100px 100px 0px;
+    border-radius: 0 100px 100px 0;
     float: left;
     border: 20px solid red;
 }
+/*C*/
 .div-eighteen{
     height: 140px;
     width: 90px;
-    background-color: none;
     margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 100px 0 0 100px;
+    float: left;
+    border: 20px solid red;
+    border-right : 0;
+}
+/*D*/
+.div-nineteen{
+     height: 140px;
+     width: 90px;
+     margin-top: 15px;
+     margin-left: 50px;
+     border-radius: 0 100px 100px 0;
+     float: left;
+     border: 20px solid red;
+ }
+/*E*/
+.div-twenty{
+    height: 140px;
+    width: 90px;
+    margin-top: 15px;
+    margin-left: 50px;
+    float: left;
+    border: 20px solid red;
+    border-right: 0px;
+}
+.div-twenty-one{
+    height: 20px;
+    width: 70px;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 75px;
+    margin-left: -70px;
+    float: left;
+}
+/*F*/
+.div-twenty-two{
+    height: 140px;
+    width: 90px;
+    margin-top: 15px;
+    margin-left: 50px;
+    float: left;
+    border: 20px solid red;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.div-twenty-three{
+    height: 20px;
+    width: 70px;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 75px;
+    margin-left: -70px;
+    float: left;
+}
+/*G*/
+.div-twenty-four{
+    height: 140px;
+    width: 95px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 100px 0 0 100px;
+    float: left;
+    border: 20px solid red;
+    border-right : 0px;
+}
+.div-twenty-five{
+    height: 60px;
+    width: 40px;
+    margin-top: 120px;
+    margin-left: -40px;
+    float: left;
+    border: 20px solid red;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+/*H*/
+.div-twenty-six{
+    height: 140px;
+    width: 90px;
+    margin-top: 50px;
+    margin-left: 55px;
+    float: left;
+    border: 20px solid red;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.div-twenty-seven{
+    height: 20px;
+    width: 50px;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 110px;
+    margin-left: -70px;
+    float: left;
+}
+/*I*/
+.div-twenty-eight{
+    height: 140px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 60px;
+    float: left;
+}
+/*J*/
+.div-twenty-nine{
+    height: 140px;
+    width: 60px;
+    border: 20px solid red;
+    border-radius: 0 0 50px 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 20px solid red;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+/*K*/
+.div-thirty{
+    height: 140px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 60px;
+    float: left;
+}
+.div-thirty-one{
+    height: 70px;
+    width: 25px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(40deg);
+    margin-top: 120px;
+    margin-left: 10px;
+    float: left;
+}
+.div-thirty-two{
+    height: 70px;
+    width: 25px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(-40deg);
+    margin-top: 50px;
+    margin-left: -25px;
+    float: left;
+}
+/*L*/
+.div-thirty-three{
+    height: 140px;
+    width: 70px;
+    border: 20px solid red;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 20px solid red;
+    margin-top: 50px;
+    margin-left: 80px;
+    float: left;
+}
+/*M*/
+.div-thirty-four{
+    height: 140px;
+    width: 100px;
+    border: 20px solid red;
+    border-top: 0px;
+    border-right: 20px solid red;
+    border-left: 20px solid red;
+    border-bottom: 0px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+.div-thirty-five{
+    height: 100px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(20deg);
+    margin-top: 50px;
+    margin-left: -80px;
+    float: left;
+}
+.div-thirty-six{
+    height: 100px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(-20deg);
+    margin-top: 50px;
+    margin-left: -40px;
+    float: left;
+}
+/*N*/
+.div-thirty-seven{
+    height: 140px;
+    width: 100px;
+    border: 20px solid red;
+    border-top: 0;
+    border-right: 20px solid red;
+    border-left: 20px solid red;
+    border-bottom: 0;
+    margin-top: 50px;
+    margin-left: 60px;
+    float: left;
+}
+.div-thirty-eight{
+    height: 140px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(30deg);
+    margin-top: 50px;
+    margin-left: -60px;
+    float: left;
+}
+/*O*/
+.div-thirty-nine{
+    height: 145px;
+    width: 95px;
+    border: 20px solid red;
+    margin-top: 45px;
     margin-left: 50px;
     border-radius: 100px;
     float: left;
+}
+/*P*/
+.div-fourty{
+    height: 140px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 40px;
+    float: left;
+}
+.div-fourty-one{
+    height: 80px;
+    width: 90px;
+    margin-top: 50px;
+    margin-left: -20px;
+    border-radius: 0 100px 100px 0;
+    float: left;
     border: 20px solid red;
-
+    border-left: 0;
+}
+/*Q*/
+.div-fourty-two{
+    height: 145px;
+    width: 95px;
+    border: 20px solid red;
+    margin-top: 45px;
+    margin-left: 30px;
+    border-radius: 100px;
+    float: left;
+}
+.div-fourty-three{
+    height: 35px;
+    width: 25px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(45deg);
+    margin-top: 155px;
+    margin-left: -35px;
+    float: left;
+}
+/*R*/
+.div-fourty-four{
+    height: 140px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 45px;
+    float: left;
+}
+.div-fourty-five{
+    height: 80px;
+    width: 90px;
+    margin-top: 50px;
+    margin-left: -20px;
+    border-radius: 0 100px 100px 0;
+    float: left;
+    border: 20px solid red;
+    border-left: 0;
+}
+.div-fourty-six{
+    height: 60px;
+    width: 25px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(40deg);
+    margin-top: 130px;
+    margin-left: -50px;
+    float: left;
+}
+/*S*/
+.div-fourty-seven{
+    height: 60px;
+    width: 20px;
+    background-color: red;
+    transform: skew(48deg);
+    margin-top: 90px;
+    margin-left: 80px;
+    float: left;
+}
+.div-fourty-eight{
+    height: 40px;
+    width: 90px;
+    border: 20px solid red;
+    border-radius: 0 0 50px 50px;
+    border-top: 0;
+    margin-top: 150px;
+    margin-left: -55px;
+    float: left;
+}
+.div-fourty-nine{
+    height: 40px;
+    width: 90px;
+    border: 20px solid red;
+    border-radius: 50px 50px 0 0;
+    border-top: 20px solid red;
+    border-bottom: 0;
+    margin-top: 50px;
+    margin-left: -88px;
+    float: left;
+}
+/*T*/
+.div-fifty{
+    height: 120px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 70px;
+    margin-left: 65px;
+    float: left;
+}
+.div-fifty-one{
+    height: 20px;
+    width: 90px;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: -55px;
+    float: left;
+}
+/*U*/
+.div-fifty-two{
+    height: 140px;
+    width: 90px;
+    border: 20px solid red;
+    border-radius: 0 0 50px 50px;
+    border-top: 0;
+    margin-top: 50px;
+    margin-left: 40px;
+    float: left;
+}
+/*V*/
+.div-fifty-three{
+     height: 135px;
+     width: 20px;
+     border: 1px solid red;
+     background-color: red;
+     transform: skew(15deg);
+     margin-top: 50px;
+     margin-left: 50px;
+     float: left;
+ }
+.div-fifty-four{
+    height: 135px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(-15deg);
+    margin-top: 50px;
+    margin-left: 25px;
+    float: left;
+}
+/*W*/
+.div-fifty-five{
+    height: 135px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(10deg);
+    margin-top: 800px;
+    margin-left: 70px;
+}
+.div-fifty-six{
+    height: 90px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(-15deg);
+    margin-top: -90px;
+    margin-left: 100px;
+    float: left;
+}
+.div-fifty-seven{
+    height: 90px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(15deg);
+    margin-top: -90px;
+    margin-left: 125px;
+    float: left;
+}
+.div-fifty-eight{
+    height: 135px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(-10deg);
+    margin-top: -135px;
+    margin-left: 155px;
+    float: left;
+}
+/*X*/
+.div-fifty-nine{
+    height: 135px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(30deg);
+    margin-top: -135px;
+    margin-left: 250px;
+    float: left;
+}
+.div-sixty{
+    height: 135px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(-30deg);
+    margin-top: -135px;
+    margin-left: 250px;
+    float: left;
+}
+/*Y*/
+.div-sixty-one{
+    height: 80px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(25deg);
+    margin-top: -135px;
+    margin-left: 350px;
+    float: left;
+}
+.div-sixty-two{
+    height: 80px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(-25deg);
+    margin-top: -135px;
+    margin-left: 387px;
+    float: left;
+}
+.div-sixty-three{
+    height: 55px;
+    width: 21px;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: -55px;
+    margin-left: 368px;
+    float: left;
+}
+/*Z*/
+.div-sixty-four{
+    height: 140px;
+    width: 100px;
+    border: 20px solid red;
+    border-right: 0;
+    border-left: 0;
+    margin-top: -135px;
+    margin-left: 455px;
+    float: left;
+}
+.div-sixty-five{
+    height: 100px;
+    width: 20px;
+    border: 1px solid red;
+    background-color: red;
+    transform: skew(-38deg);
+    margin-top: -115px;
+    margin-left: -60px;
+    float: left;
 }
